@@ -65,14 +65,12 @@
 		align-items:center;
 	}
 	
- .subHeroProducts_img > img{
-		object-fit:cover;
+.subHeroProducts_img > img {
+		max-height: 450px;
+		height: auto;
+		min-height: 300px;
 	}
 	
-	
-	.subHeroProducts_img {
-	max-height: 300px;
-}
 }
 
 @media screen and (min-width:1000px){
