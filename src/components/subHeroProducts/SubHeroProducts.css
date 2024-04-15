@@ -68,11 +68,9 @@
 	.subHeroProducts_img{
 		padding:0;
 	}
-
-	.subHeroProducts_img > img {
-	min-width: 80%;
-	height: 100%;
-	object-fit: cover;
+	
+	.subHeroProducts_img {
+	height: 70%;
 }
 }
 
