@@ -65,9 +65,10 @@
 		align-items:center;
 	}
 	
-	.subHeroProducts_img{
-		padding:0;
+ .subHeroProducts_img > img{
+		object-fit:contain;
 	}
+	
 	
 	.subHeroProducts_img {
 	height: 70%;
