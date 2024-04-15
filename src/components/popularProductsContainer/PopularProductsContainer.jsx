@@ -10,7 +10,7 @@ const PopularProductsContainer = ({ img , title , description , link }) => {
 		<div className="popularProductsContainer_description">
 		<h3>{title}</h3>
 		<p>{description}</p>
-		<Link onClick={() => window.top(0 , 0 )} to={`/${link}`} style={{textDecoration:"none"}}>
+		<Link onClick={() => window.scrollTo(0 , 0 )} to={`/${link}`} style={{textDecoration:"none"}}>
 		<button className="btn-shopNow">Shop Now</button>
 		</Link>
 		</div>
