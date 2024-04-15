@@ -1,0 +1,37 @@
+.searchModal_container{
+	cursor: pointer;
+	position: absolute;
+	top: 30px;
+	background-color: white;
+	width: 100%;
+	max-height: 350px;
+	overflow-y: auto;
+	background-color: #f5f5f5;
+	border-radius: 5px;
+}
+
+.searchModal_container2{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	gap: 10px;
+	padding: 1em;
+	background-color: white;
+	margin: .3em;
+	color: #293241;
+	border-radius: 5px;
+}
+
+.no_prod_container{
+	padding: 1em;
+	background-color: white;
+	color: #293241;
+}
+
+.search_image{
+	width: 25px;
+}
+
+.search_p{
+	font-size: .8rem;
+}

@@ -1,0 +1,45 @@
+.info_container-div{
+    border-bottom: 1px solid #fff9f0;
+    color: #293241;
+}
+
+.info_container-div-first {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: .8rem 0;
+}
+
+.info_container-div-first > p {
+   font-weight: 600;
+   font-size: 18px;
+}
+
+.info_container-div-first > button {
+	background: transparent;
+	border: none;
+}
+
+.btn-arrows{
+   color:#293241 ;
+}
+
+@media screen and ( max-width: 850px){
+   .info_container-div-first > p {
+   font-size: 17px;
+}
+
+   .info_container-div-second > p{
+   	font-size: 15px;
+   }
+ }
+
+ @media screen and ( min-width: 1400px) {
+    .info_container-div-first > p {
+   font-size: 1.3em;
+}
+
+   .info_container-div-second > p{
+      font-size: 1.2em;
+   }
+ }

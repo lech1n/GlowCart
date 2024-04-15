@@ -1,0 +1,27 @@
+.subHero_container {
+	display: grid; 
+  grid-template-columns: 1fr;
+}
+
+
+
+@media screen and ( min-width:701px ) {
+	.division {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.subHero_container { 
+	    grid-template-columns: repeat(2 , 1fr);
+	  }
+
+.two{
+	grid-row: 1 / span 2;
+	grid-column: 2;
+}
+
+.two > .subHeroProducts_container {
+	flex-direction: column;
+ }
+
+}

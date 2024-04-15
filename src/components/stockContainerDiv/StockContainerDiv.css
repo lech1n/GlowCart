@@ -1,0 +1,33 @@
+.stockContainerDiv_icon {
+	background-color: #fff9f0;
+	padding:  .5rem .8rem;
+	border-radius: 6px;
+}
+
+.stockContainerDiv_ps {
+	padding: .5rem;
+}
+
+.stockContainerDiv_ps-one{
+	color: #989898;
+}
+
+.stockContainerDiv_ps-two {
+	color: #293241;
+}
+
+
+@media screen and ( max-width: 450px){
+	.stockContainerDiv_ps-one , .stockContainerDiv_ps-two{
+		font-size: .8em;
+	}
+}
+
+	@media screen and ( min-width: 1400px) {
+		.stockContainerDiv_ps-one , .stockContainerDiv_ps-two{
+			font-size: 1.2em;
+		}
+	}
+
+
+

@@ -1,0 +1,34 @@
+.bestseller_section {
+	padding: 4rem 1rem;
+	margin: 0 auto;
+	max-width: 1800px;
+}
+
+.bestseller_section > h3 {
+	color:#293241;
+	max-width: 80px;
+	font-weight: 500;
+}
+
+.bestseller_container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	gap: 20px;
+	border-radius: 10px;
+	padding-top: 1.3rem;
+}
+
+@media screen and (max-width: 870px){
+	.bestseller_container {
+		grid-template-columns: repeat(2, 1fr);
+		grid-template-rows: repeat(2, 1fr);
+	}
+}
+
+@media screen and (max-width: 425px){
+	.bestseller_container {
+		grid-template-columns: repeat(1, 1fr);
+		grid-template-rows: repeat(4, 1fr);
+	}
+}

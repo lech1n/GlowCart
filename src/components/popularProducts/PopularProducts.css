@@ -1,0 +1,65 @@
+.popularProducts-section{
+   width: 100%;
+}
+
+.popularProducts_container {
+	display: grid;
+	grid-template-columns: repeat(4, 1fr);
+	grid-template-rows: repeat(1, 1fr);
+	justify-content: center;
+	align-items: center;
+	padding: 6rem 1rem 0 1rem;
+	background-color:#fff9f0;	
+}
+
+.popularProducts_container1{
+	background: hsla(21, 52%, 65%, 1);
+    background: radial-gradient(circle, hsla(21, 52%, 65%, 1) 0%, hsla(36, 100%, 97%, 1) 100%);
+    background: -moz-radial-gradient(circle, hsla(21, 52%, 65%, 1) 0%, hsla(36, 100%, 97%, 1) 100%);
+    background: -webkit-radial-gradient(circle, hsla(21, 52%, 65%, 1) 0%, hsla(36, 100%, 97%, 1) 100%);
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#D49777", endColorstr="#FFF9F0", GradientType=1 );
+}
+
+.popularProducts_container2{
+	background-color:#f2e3cb;
+}
+
+.popularProducts_container3{
+	background-color: #fff9f0;
+}
+
+.popularProducts_container4{
+	background-color: #fff;
+}
+
+
+.slick_container{
+	max-width: 90%;
+	margin: 0 auto;
+	padding: 2em 0;
+}
+
+
+
+@media screen and (max-width: 1100px) {
+	.popularProducts_container {
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(2, 1fr);
+}
+}
+
+@media screen and (max-width: 700px){
+	.popularProducts_container{
+		grid-template-columns: repeat(1, 1fr);
+	grid-template-rows: repeat(4, 1fr);
+	}
+
+	.popularProducts_container1,
+	.popularProducts_container2,
+	.popularProducts_container3,
+	.popularProducts_container4 {
+		border-radius: 10px;
+
+	}
+}
+

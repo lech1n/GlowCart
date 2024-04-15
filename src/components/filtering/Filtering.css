@@ -1,0 +1,99 @@
+.sidebar_containers{
+	padding: 1rem;
+}
+
+.sidebar_containers-div{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	color: #293241;
+	padding-bottom: .5rem;
+	border-bottom: 1px solid #ededed;
+}
+
+.sidebar_containers-div > p {
+	font-weight: 600;
+}
+
+.sidebar_containers-div > button {
+	color: #293241;
+	border: none;
+	background: transparent;
+}
+.checkbox_container {
+	padding: 1rem 0;
+}
+
+.checkbox {
+	cursor: pointer;
+	color: #293241;
+	display: flex;
+	align-items: center;
+	padding: .4rem 0;
+}
+
+.checkbox > p:hover {
+	color: #989898;
+}
+
+.number_container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: .8rem 0;
+	color: #989898;
+}
+
+.number_container > .number > input{
+	width: 80px;
+	padding: .2rem 0;
+	color: #293241;
+	border:1px solid #989898;
+	border-radius: 2px;
+}
+
+.number {
+	display: flex;
+	flex-direction: column;
+}
+
+.number > .two {
+	align-self: flex-end;
+}
+
+.error_message {
+	font-size: .9em;
+	color: #ff0033;
+	padding-top: 1rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input[type=number]{
+    -moz-appearance: textfield;
+}
+
+
+@media screen and ( min-width:701px ){
+	aside {
+		padding: 2rem 1rem;
+	}
+
+}
+
+@media screen and ( max-width:701px ){
+	.sidebar_containers {
+		padding: 1rem ;
+	}
+
+	.number_container {
+		max-width: 250px;
+	}
+
+
+}
+
