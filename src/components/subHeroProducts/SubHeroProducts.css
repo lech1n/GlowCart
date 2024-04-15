@@ -61,9 +61,7 @@
 	}
 } 
 @media screen and (max-width:701px){
-	.subHeroProducts_container{
-		align-items:center;
-	}
+
 	
 .subHeroProducts_img > img {
 		max-height: 450px;
