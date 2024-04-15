@@ -47,13 +47,13 @@ const PopularProducts = () => {
       <PopularProductsContainer  link={'products'} img={Banner2} title={"Lorem Dorem Ipsum"} description={"Lorem Dorem Ipsum Lorem Dorem Ipsum"}/>
       </div>
       <div className="popularProducts_container2">
-      <PopularProductsContainer link={'product/8'} img={prod2} title={"Lorem Dorem Ipsum"} description={"Lorem Dorem Ipsum Lorem Dorem Ipsum"}/>
+      <PopularProductsContainer link={'product/9'} img={prod2} title={"Lorem Dorem Ipsum"} description={"Lorem Dorem Ipsum Lorem Dorem Ipsum"}/>
       </div>
       <div className="popularProducts_container3" >
-      <PopularProductsContainer link={'product/21'} img={prod6} title={"Lorem Dorem Ipsum"} description={"Lorem Dorem Ipsum Lorem Dorem Ipsum"}/>
+      <PopularProductsContainer link={'product/10'} img={prod6} title={"Lorem Dorem Ipsum"} description={"Lorem Dorem Ipsum Lorem Dorem Ipsum"}/>
       </div>
       <div className="popularProducts_container4">
-      <PopularProductsContainer  link={'product/18'} img={Caudalie} title={"Lorem Dorem Ipsum"} description={"Lorem Dorem Ipsum Lorem Dorem Ipsum"}/>
+      <PopularProductsContainer  link={'product/20'} img={Caudalie} title={"Lorem Dorem Ipsum"} description={"Lorem Dorem Ipsum Lorem Dorem Ipsum"}/>
       </div>
       </Slider>
       </div>
@@ -63,13 +63,13 @@ const PopularProducts = () => {
       <PopularProductsContainer link={'products'} img={Banner2} title={"Lorem Dorem Ipsum"} description={"Lorem Dorem Ipsum Lorem Dorem Ipsum"}/>
       </div>
       <div className="popularProducts_container2">
-      <PopularProductsContainer  link={'product/8'} img={prod2} title={"Lorem Dorem Ipsum"} description={"Lorem Dorem Ipsum Lorem Dorem Ipsum"}/>
+      <PopularProductsContainer  link={'product/9'} img={prod2} title={"Lorem Dorem Ipsum"} description={"Lorem Dorem Ipsum Lorem Dorem Ipsum"}/>
       </div>
       <div className="popularProducts_container3" >
-      <PopularProductsContainer link={'product/21'} img={prod6} title={"Lorem Dorem Ipsum"} description={"Lorem Dorem Ipsum Lorem Dorem Ipsum"}/>
+      <PopularProductsContainer link={'product/10'} img={prod6} title={"Lorem Dorem Ipsum"} description={"Lorem Dorem Ipsum Lorem Dorem Ipsum"}/>
       </div>
       <div className="popularProducts_container4">
-      <PopularProductsContainer  link={'product/18'} img={Caudalie} title={"Lorem Dorem Ipsum"} description={"Lorem Dorem Ipsum Lorem Dorem Ipsum"}/>
+      <PopularProductsContainer  link={'product/20'} img={Caudalie} title={"Lorem Dorem Ipsum"} description={"Lorem Dorem Ipsum Lorem Dorem Ipsum"}/>
       </div>
       </div>
       )}
