@@ -11,18 +11,20 @@ const Spf = () => {
 
   return (
    <>
-   { filteredProducts.length  === 0 &&
-   (<div className="no_prod_found_container">
-    <p>No products found.</p>
-    <img src={noProd} alt="no products found" />
-    </div>
-    )}
    <div className="category-name_container">
    <p>Spf</p>
    </div>
    {filteredProducts.length > 0 && (
     <Pagination data={filteredProducts}/>
     )}
+    
+    { filteredProducts.length  === 0 &&
+   (<div className="no_prod_found_container">
+    <p>No products found.</p>
+    <img src={noProd} alt="no products found" />
+    </div>
+    )}
+    
    
    </>
    )
