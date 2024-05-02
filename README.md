@@ -1,8 +1,19 @@
-# React + Vite
+# E-Commerce Front-End App with React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Welcome to GlowCart E-Commerce Front-End App! This application provides a user-friendly interface for browsing products, adding them to the cart, and managing your shopping experience.
 
-Currently, two official plugins are available:
+##Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+-Browse Products: Explore a wide range of products available in our catalog.
+-Add to Cart: Easily add products to your shopping cart with a single click.
+-Delete Items: Remove items from your cart if you change your mind.
+
+##Technologies Used
+
+-React: Front-end library for building user interfaces.
+-React Router: For handling navigation within the application.
+
+##Contributing
+
+We welcome contributions from the community! If you find any bugs or have suggestions for improvement, please open an issue or submit a pull request. For major changes, please open an issue first to discuss the proposed changes.
+
